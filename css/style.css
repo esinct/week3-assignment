@@ -65,7 +65,7 @@ h1 {
 /*Main area*/
 .tworows.hassidebar {/*setting of the main section with -first column two rows and -second column 3 rows as sidebar*/
 	width: 100%;
-	height: 1140px;
+	height: 1300px;
 	background: #f0efef;
 	margin:0;
 	padding:0;
@@ -73,6 +73,7 @@ h1 {
 }
 main.column { /*setting of the main section with -first column two rows*/
 	max-width: 60%;
+	width:650px;
 	max-height: 1000px;
 	display: block;
 	float: left;
