@@ -1,0 +1,242 @@
+/*Project Name: RELAXR Landing Page
+Client: RELAXR
+Author: ESIN CETI
+Developer @GA in London*/
+
+/*Setup*/
+{
+  box-sizing: border-box; /*Box model hack*/
+}
+/*Clear fix*/
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+.clearfix:after {
+    clear: both;
+}
+/*Declaring font*/
+header body footer {
+	font: Open Sans;
+}
+/*Header settings*/
+header {
+	background-color: #033048;
+	width: 1139;
+	height: 150px;
+	width:1136px;
+}
+.navbar li {
+	float: left;
+	color: #f9e42e;
+	display: block;
+	list-style: none;
+	margin: 10px;
+	padding-left: 30px;
+	font-weight: semibold;
+
+}	
+.navbar {
+	float: right;
+	width: 100%;
+	color: #f9e42e;
+	height: 60px;
+	max-width:100%;
+	position: relative;
+	margin-bottom:50px;
+}
+a {
+	text-decoration: none;
+	color: #f9e42e;
+}
+li:nth-child(2){
+	padding-left: 600px;
+}
+li:first-child {
+	margin: 0;
+}
+h1 {
+	font-weight: bolder;
+	font-size: 20pt;
+	color: white;
+	margin: 0;
+}
+/*Main area*/
+.tworows.hassidebar {/*setting of the main section with -first column two rows and -second column 3 rows as sidebar*/
+	width: 100%;
+	height: 1140px;
+	background: #f0efef;
+	margin:0;
+	padding:0;
+	padding-left: 70px;
+}
+main.column { /*setting of the main section with -first column two rows*/
+	max-width: 60%;
+	max-height: 1000px;
+	display: block;
+	float: left;
+	position: relative;
+}
+aside.column { /*setting of the main section with -second column 3 rows as sidebar*/
+	max-width: 40%;
+	height: 1000px;
+	max-height:100%;
+	position: right;
+	display: block;
+	float: right;
+	padding-left:5%;
+	list-style: none;
+
+}
+.tworows.hassidebar .sidebarfirst {
+	height: 20%;
+	text-indent: -40px;
+}
+.tworows.hassidebar .sidebarsecond {
+	height: 20%;
+	padding-top: 0;
+	width: 300px;
+}
+.tworows.hassidebar .sidebarthird {
+	height: 60%;
+	padding-top: 0;
+}
+/*******/
+p {
+	margin-bottom: 0;
+	width:700px;
+	max-width:100%;
+}
+img {
+	max-width:100%;
+	background-size: center;
+}
+.tworows .hassidebar .h2 {
+	color: #033048;
+	margin:0;
+	width: 700px;
+	height: 100px;
+	text-align: center;
+}
+.tworows.hassidebar a.readmore {
+	color: #033048;
+	text-decoration: none;
+	font-weight: bolder;
+	float: right;
+	padding-right: 50px;
+}
+div hr {
+	margin:30px;
+	width: 100%;
+	align: center;
+}
+.sidebarfirst li {
+	position: table;
+	color: #f9e42e;
+	display: block;
+	margin: 10px;
+	padding-left: 30px;
+	font-weight: semibold;
+	color: #033048;
+	text-align: left;
+}	
+.sidebarfirst ul {
+	padding-left: 0px;
+}
+.sidebarfirst li a {
+	color: #033048;
+}
+h5 {
+	padding: 10px;
+}
+h2 {
+	margin:0;
+	padding-bottom: 20px;
+}
+aside {
+	height: 1200px;
+	width: 100%;
+}
+h4 {
+	color: #033048;
+	font-size: 15pt;
+	font-weight: bold;
+	margin:0;
+}
+.tworows.hassidebar a.learnmore {
+	color: #033048;
+	text-decoration: none;
+	font-weight: bolder;
+	float: left;
+}
+p {
+	color: #033048;
+	font-weight: lighter;
+ 
+}
+main p::first-letter { 
+	font-size: 400%;
+	vertical-align: top;
+	float: left;
+	line-height: 60px;
+	padding-top: 4px;
+	padding-right: 8px;
+	padding-left: 3px;
+}
+/*Footer settings*/
+footer {
+	clear: both;
+	background-color: #f9e42e;
+	text-align: center;
+	color: white;
+	font-size: 10pt;
+	margin: auto 0;
+	padding: 0;
+	font-weight: Semibold;
+	position: relative;
+}
+.footer {
+	width: 100%;
+	height: 200px;
+	background-color: #121212;
+}
+.signupnow {
+	border: 2px solid #033048;
+	border-radius: 25px;
+	background-color: #033048;
+	color: #606161;
+	font-size: 14pt;
+	text-decoration: none;
+	font-weight: bolder;
+	padding: 5px 50px;
+	border: 20px solid #f9e42e;
+}
+a.sign {
+	color: white;
+}
+a.twitter {
+	background: url("../images/twitter.png") no-repeat center;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	padding-top: 0;
+	margin: 10px auto 40px auto;
+}
+a.fb {
+	background: url("../images/facebook.png")no-repeat center;
+	width: 60px;
+	height: 60px;
+	display: inline-block;
+	padding-top: 0;
+	margin: 10px auto 40px auto;
+}
+h3 {
+	font-weight: Semibold;
+	font-size: 20pt;
+	text-align: center;
+	color: #f9e42e;
+	padding-top: 20px;
+	padding-bottom: 0;
+	margin:0;
+}
